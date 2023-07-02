@@ -11,7 +11,7 @@ if ans == "yes":
     start_time =int( time.time() )
     print("now you can think in your brain a number andd tell for me")
     x = int(input("your number is :"))
-    list1 = {25,50,75,100}
+    list1 = [25,50,75,100]
     ys = (random.choice(list1)) #yoursorce
     cpnb = random.randint(1,100) #computer'number
     cp = abs(50-cpnb)
